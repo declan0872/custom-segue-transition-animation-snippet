@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147A704F230751A500380E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A704E230751A500380E9A /* AppDelegate.swift */; };
+		147A7051230751A500380E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A7050230751A500380E9A /* ViewController.swift */; };
+		147A7054230751A500380E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147A7052230751A500380E9A /* Main.storyboard */; };
+		147A7056230751A800380E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147A7055230751A800380E9A /* Assets.xcassets */; };
+		147A7059230751A800380E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147A7057230751A800380E9A /* LaunchScreen.storyboard */; };
+		147A7064230751A800380E9A /* custom_segue_transition_animation_snippetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A7063230751A800380E9A /* custom_segue_transition_animation_snippetTests.swift */; };
+		147A706F230751A800380E9A /* custom_segue_transition_animation_snippetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A706E230751A800380E9A /* custom_segue_transition_animation_snippetUITests.swift */; };
+		147A707D2308053000380E9A /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A707C2308053000380E9A /* ScaleSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147A7060230751A800380E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147A7043230751A500380E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147A704A230751A500380E9A;
+			remoteInfo = "custom-segue-transition-animation-snippet";
+		};
+		147A706B230751A800380E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147A7043230751A500380E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 147A704A230751A500380E9A;
+			remoteInfo = "custom-segue-transition-animation-snippet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		147A704B230751A500380E9A /* custom-segue-transition-animation-snippet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "custom-segue-transition-animation-snippet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147A704E230751A500380E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147A7050230751A500380E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147A7053230751A500380E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147A7055230751A800380E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147A7058230751A800380E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147A705A230751A800380E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147A705F230751A800380E9A /* custom-segue-transition-animation-snippetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom-segue-transition-animation-snippetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147A7063230751A800380E9A /* custom_segue_transition_animation_snippetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_segue_transition_animation_snippetTests.swift; sourceTree = "<group>"; };
+		147A7065230751A800380E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147A706A230751A800380E9A /* custom-segue-transition-animation-snippetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom-segue-transition-animation-snippetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147A706E230751A800380E9A /* custom_segue_transition_animation_snippetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_segue_transition_animation_snippetUITests.swift; sourceTree = "<group>"; };
+		147A7070230751A800380E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147A707C2308053000380E9A /* ScaleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147A7048230751A500380E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147A705C230751A800380E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147A7067230751A800380E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147A7042230751A500380E9A = {
+			isa = PBXGroup;
+			children = (
+				147A704D230751A500380E9A /* custom-segue-transition-animation-snippet */,
+				147A7062230751A800380E9A /* custom-segue-transition-animation-snippetTests */,
+				147A706D230751A800380E9A /* custom-segue-transition-animation-snippetUITests */,
+				147A704C230751A500380E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147A704C230751A500380E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147A704B230751A500380E9A /* custom-segue-transition-animation-snippet.app */,
+				147A705F230751A800380E9A /* custom-segue-transition-animation-snippetTests.xctest */,
+				147A706A230751A800380E9A /* custom-segue-transition-animation-snippetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147A704D230751A500380E9A /* custom-segue-transition-animation-snippet */ = {
+			isa = PBXGroup;
+			children = (
+				147A704E230751A500380E9A /* AppDelegate.swift */,
+				147A7050230751A500380E9A /* ViewController.swift */,
+				147A707C2308053000380E9A /* ScaleSegue.swift */,
+				147A7052230751A500380E9A /* Main.storyboard */,
+				147A7055230751A800380E9A /* Assets.xcassets */,
+				147A7057230751A800380E9A /* LaunchScreen.storyboard */,
+				147A705A230751A800380E9A /* Info.plist */,
+			);
+			path = "custom-segue-transition-animation-snippet";
+			sourceTree = "<group>";
+		};
+		147A7062230751A800380E9A /* custom-segue-transition-animation-snippetTests */ = {
+			isa = PBXGroup;
+			children = (
+				147A7063230751A800380E9A /* custom_segue_transition_animation_snippetTests.swift */,
+				147A7065230751A800380E9A /* Info.plist */,
+			);
+			path = "custom-segue-transition-animation-snippetTests";
+			sourceTree = "<group>";
+		};
+		147A706D230751A800380E9A /* custom-segue-transition-animation-snippetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				147A706E230751A800380E9A /* custom_segue_transition_animation_snippetUITests.swift */,
+				147A7070230751A800380E9A /* Info.plist */,
+			);
+			path = "custom-segue-transition-animation-snippetUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147A704A230751A500380E9A /* custom-segue-transition-animation-snippet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147A7073230751A800380E9A /* Build configuration list for PBXNativeTarget "custom-segue-transition-animation-snippet" */;
+			buildPhases = (
+				147A7047230751A500380E9A /* Sources */,
+				147A7048230751A500380E9A /* Frameworks */,
+				147A7049230751A500380E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "custom-segue-transition-animation-snippet";
+			productName = "custom-segue-transition-animation-snippet";
+			productReference = 147A704B230751A500380E9A /* custom-segue-transition-animation-snippet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		147A705E230751A800380E9A /* custom-segue-transition-animation-snippetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147A7076230751A800380E9A /* Build configuration list for PBXNativeTarget "custom-segue-transition-animation-snippetTests" */;
+			buildPhases = (
+				147A705B230751A800380E9A /* Sources */,
+				147A705C230751A800380E9A /* Frameworks */,
+				147A705D230751A800380E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147A7061230751A800380E9A /* PBXTargetDependency */,
+			);
+			name = "custom-segue-transition-animation-snippetTests";
+			productName = "custom-segue-transition-animation-snippetTests";
+			productReference = 147A705F230751A800380E9A /* custom-segue-transition-animation-snippetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		147A7069230751A800380E9A /* custom-segue-transition-animation-snippetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147A7079230751A800380E9A /* Build configuration list for PBXNativeTarget "custom-segue-transition-animation-snippetUITests" */;
+			buildPhases = (
+				147A7066230751A800380E9A /* Sources */,
+				147A7067230751A800380E9A /* Frameworks */,
+				147A7068230751A800380E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147A706C230751A800380E9A /* PBXTargetDependency */,
+			);
+			name = "custom-segue-transition-animation-snippetUITests";
+			productName = "custom-segue-transition-animation-snippetUITests";
+			productReference = 147A706A230751A800380E9A /* custom-segue-transition-animation-snippetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147A7043230751A500380E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Declan Conway";
+				TargetAttributes = {
+					147A704A230751A500380E9A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					147A705E230751A800380E9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 147A704A230751A500380E9A;
+					};
+					147A7069230751A800380E9A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 147A704A230751A500380E9A;
+					};
+				};
+			};
+			buildConfigurationList = 147A7046230751A500380E9A /* Build configuration list for PBXProject "custom-segue-transition-animation-snippet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147A7042230751A500380E9A;
+			productRefGroup = 147A704C230751A500380E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147A704A230751A500380E9A /* custom-segue-transition-animation-snippet */,
+				147A705E230751A800380E9A /* custom-segue-transition-animation-snippetTests */,
+				147A7069230751A800380E9A /* custom-segue-transition-animation-snippetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147A7049230751A500380E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147A7059230751A800380E9A /* LaunchScreen.storyboard in Resources */,
+				147A7056230751A800380E9A /* Assets.xcassets in Resources */,
+				147A7054230751A500380E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147A705D230751A800380E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147A7068230751A800380E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147A7047230751A500380E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147A7051230751A500380E9A /* ViewController.swift in Sources */,
+				147A704F230751A500380E9A /* AppDelegate.swift in Sources */,
+				147A707D2308053000380E9A /* ScaleSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147A705B230751A800380E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147A7064230751A800380E9A /* custom_segue_transition_animation_snippetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147A7066230751A800380E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147A706F230751A800380E9A /* custom_segue_transition_animation_snippetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147A7061230751A800380E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147A704A230751A500380E9A /* custom-segue-transition-animation-snippet */;
+			targetProxy = 147A7060230751A800380E9A /* PBXContainerItemProxy */;
+		};
+		147A706C230751A800380E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 147A704A230751A500380E9A /* custom-segue-transition-animation-snippet */;
+			targetProxy = 147A706B230751A800380E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147A7052230751A500380E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147A7053230751A500380E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147A7057230751A800380E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147A7058230751A800380E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147A7071230751A800380E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		147A7072230751A800380E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147A7074230751A800380E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTZBC7284P;
+				INFOPLIST_FILE = "custom-segue-transition-animation-snippet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.declanconway.custom-segue-transition-animation-snippet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147A7075230751A800380E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTZBC7284P;
+				INFOPLIST_FILE = "custom-segue-transition-animation-snippet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.declanconway.custom-segue-transition-animation-snippet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		147A7077230751A800380E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTZBC7284P;
+				INFOPLIST_FILE = "custom-segue-transition-animation-snippetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.declanconway.custom-segue-transition-animation-snippetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custom-segue-transition-animation-snippet.app/custom-segue-transition-animation-snippet";
+			};
+			name = Debug;
+		};
+		147A7078230751A800380E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTZBC7284P;
+				INFOPLIST_FILE = "custom-segue-transition-animation-snippetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.declanconway.custom-segue-transition-animation-snippetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custom-segue-transition-animation-snippet.app/custom-segue-transition-animation-snippet";
+			};
+			name = Release;
+		};
+		147A707A230751A800380E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTZBC7284P;
+				INFOPLIST_FILE = "custom-segue-transition-animation-snippetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.declanconway.custom-segue-transition-animation-snippetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "custom-segue-transition-animation-snippet";
+			};
+			name = Debug;
+		};
+		147A707B230751A800380E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTZBC7284P;
+				INFOPLIST_FILE = "custom-segue-transition-animation-snippetUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.declanconway.custom-segue-transition-animation-snippetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "custom-segue-transition-animation-snippet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147A7046230751A500380E9A /* Build configuration list for PBXProject "custom-segue-transition-animation-snippet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147A7071230751A800380E9A /* Debug */,
+				147A7072230751A800380E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147A7073230751A800380E9A /* Build configuration list for PBXNativeTarget "custom-segue-transition-animation-snippet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147A7074230751A800380E9A /* Debug */,
+				147A7075230751A800380E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147A7076230751A800380E9A /* Build configuration list for PBXNativeTarget "custom-segue-transition-animation-snippetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147A7077230751A800380E9A /* Debug */,
+				147A7078230751A800380E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147A7079230751A800380E9A /* Build configuration list for PBXNativeTarget "custom-segue-transition-animation-snippetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147A707A230751A800380E9A /* Debug */,
+				147A707B230751A800380E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147A7043230751A500380E9A /* Project object */;
+}

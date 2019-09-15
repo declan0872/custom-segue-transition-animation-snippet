@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="custom_segue_transition_animation_snippet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R34-Bg-Tla">
+                                <rect key="frame" x="149" y="411" width="116" height="74"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="Mcb-eG-gx6"/>
+                                    <constraint firstAttribute="height" constant="74" id="PiH-lc-raO"/>
+                                </constraints>
+                                <state key="normal" title="Present"/>
+                                <connections>
+                                    <segue destination="rW6-Ul-yb5" kind="custom" customClass="ScaleSegue" customModule="custom_segue_transition_animation_snippet" customModuleProvider="target" id="qhz-4a-nVQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67596911189999997" green="0.71048818650000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R34-Bg-Tla" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q8b-iu-dwT"/>
+                            <constraint firstItem="R34-Bg-Tla" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s8d-2A-SKb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="E4u-EJ-2Io">
+            <objects>
+                <viewController id="rW6-Ul-yb5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IIP-H1-2zR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pus-WT-h4S">
+                                <rect key="frame" x="149" y="411" width="116" height="74"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="6WZ-Ca-B61"/>
+                                    <constraint firstAttribute="width" constant="116" id="9eo-Pi-Qt1"/>
+                                </constraints>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <segue destination="RRT-vJ-FCv" kind="unwind" customClass="UnwindScaleSegue" customModule="custom_segue_transition_animation_snippet" customModuleProvider="target" unwindAction="prepareForUnwindWithSegue:" id="LfH-d0-mur"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59892219970000005" green="1" blue="0.68926057760000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pus-WT-h4S" firstAttribute="centerY" secondItem="IIP-H1-2zR" secondAttribute="centerY" id="1nn-La-3Cb"/>
+                            <constraint firstItem="pus-WT-h4S" firstAttribute="centerX" secondItem="IIP-H1-2zR" secondAttribute="centerX" id="qJq-c9-cpq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rF2-we-CPL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdw-S7-hif" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="RRT-vJ-FCv" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="118"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
